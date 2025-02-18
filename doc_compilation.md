@@ -1,4 +1,3 @@
-```markdown
 # Documentation Compilation
 
 ## Table of Contents
@@ -27,7 +26,6 @@ This document **combines all UML diagrams** required by the **HBnB - UML** proje
 
 Below is the **raw code** for the **high-level package diagram**. Copy/paste into a Mermaid-capable Markdown viewer or use an online Mermaid editor.
 
-```markdown
 # High-Level Package Diagram
 
 ```mermaid
@@ -65,7 +63,7 @@ classDiagram
         +query()
     }
 ```
-```
+
 
 ### Explanation
 - **PresentationLayer**: Handles routes, services, and user interactions.  
@@ -78,7 +76,6 @@ classDiagram
 
 Below is the **raw code** for the **business logic class diagram** showing the main entities.
 
-```markdown
 # Business Logic Diagram
 
 ```mermaid
@@ -143,7 +140,7 @@ Place "1" --> "many" Review : has
 User "1" --> "many" Review : writes
 Place "many" -- "many" Amenity : associated with
 ```
-```
+
 
 ### Notes
 - **User**: Unique ID, timestamps, plus `is_admin` for privileges.  
@@ -159,7 +156,6 @@ Below are **four** sequence diagrams covering key API workflows: **User Registra
 
 ### 1. User Registration
 
-```markdown
 # sequence_diagram_register.md
 
 ```mermaid
@@ -176,7 +172,7 @@ sequenceDiagram
     Facade-->>API: user object or error
     API-->>Client: HTTP 201 or 400/500
 ```
-```
+
 
 ### 2. Place Creation
 
@@ -197,7 +193,7 @@ sequenceDiagram
     Facade-->>API: place object or error
     API-->>Client: HTTP 201 or error
 ```
-```
+
 
 ### 3. Review Submission
 
@@ -218,7 +214,7 @@ sequenceDiagram
     Facade-->>API: review object or error
     API-->>Client: HTTP 201 or error
 ```
-```
+
 
 ### 4. Fetching a List of Places
 
@@ -239,7 +235,7 @@ sequenceDiagram
     Facade-->>API: list of place objects
     API-->>Client: HTTP 200 + JSON
 ```
-```
+
 
 ---
 
