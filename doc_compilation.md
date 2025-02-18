@@ -176,7 +176,6 @@ sequenceDiagram
 
 ### 2. Place Creation
 
-```markdown
 # sequence_diagram_place.md
 
 ```mermaid
@@ -197,7 +196,6 @@ sequenceDiagram
 
 ### 3. Review Submission
 
-```markdown
 # sequence_diagram_review.md
 
 ```mermaid
@@ -218,7 +216,6 @@ sequenceDiagram
 
 ### 4. Fetching a List of Places
 
-```markdown
 # sequence_diagram_fetch.md
 
 ```mermaid
